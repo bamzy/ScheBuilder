@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="style/style.css">
+        <title>Welcome To ScheBuilder</title>
+        <!--<script type="text/javascript" src="../jquery/jquery-1.12.0.js"></script>-->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="scripts/scheScripts.js"></script>
+</head>
+<body>
+        <div class="strongTextDiv shadowedDiv"><h3>Welcome to your Scheduler</h3></div>
+        <div class="headerDiv shadowedDiv"><img class="headerImg" src="img/header.jpg"></div>
+        <nav class="main-navigation" role="navigation">
+            <div class="shadowedDiv">
+                <ul id="menu-main-menu" class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="restaurant-to-room-service.html">Room Service</a></li>
+                    <li><a href="specials.html">Specials</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="meetings-events.html">Meetings &#038; Events</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="blockDiv" class="mainBody shadowedDiv">
+            <button id="addTask" class="addTaskButton">Add New Task</button>
+            <div id="dialog-form" title="Create new user" class="shadowedDiv">
+                <form>
+                    <fieldset style="align-items: stretch">
+                        <label for="taskName">Task Name</label>
+                        <input type="text" name="taskName" id="taskName" value="" class="text ui-widget-content ui-corner-all">
+                        <label for="priority">Priority</label>
+                        <select name="priority" id="priority">
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                            <option value="low">Low</option>
+                        </select>
+                        <label for="description">Description</label>
+                        <input type="text" name="description" id="description" value="" class="text ui-widget-content ui-corner-all">
+
+                        <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                        <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+                    </fieldset>
+                </form>
+            </div>
+            <div id="1" class="scheduleBlocks shadowedDiv"><h3>first block</h3></div>
+            <div id="2" class="scheduleBlocks shadowedDiv"><h3>first block</h3></div>
+        </div>
+</body>
+</html>

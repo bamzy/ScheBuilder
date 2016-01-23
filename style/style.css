@@ -1,0 +1,127 @@
+html, body {
+    background-image: url("../img/site%20background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0 ;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: justify;
+    color: lightblue;
+}
+.headerDiv {
+    border: 5px solid black;
+    padding: 0;
+    height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.strongTextDiv {
+    font-family: schedBuilderFont;
+    font-stretch: expanded;
+    font-size: large;
+    border: 3px groove black;
+    background-color: thistle;
+}
+.headerImg {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+h3 {
+    color: black;
+    text-align: center ;
+}
+@font-face {
+    font-family: schedBuilderFont;
+    src: url("font/SummitBold-Display.otf");
+}
+.shadowedDiv {
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-right: 10%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    width: auto;
+}
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+    display: inline-block !important;
+    background-color: #959bd1;
+    text-align: center;
+    width: auto;
+}
+.main-navigation ul {
+    margin: 0;
+    text-indent: 0;
+}
+.main-navigation li a,
+.main-navigation li {
+    display: inline-block;
+    text-decoration: none;
+}
+.main-navigation li {
+    padding: 10px;
+    border: 1px solid black;
+}
+.main-navigation li a {
+    border-bottom: 0;
+    color: #160c6a;
+    line-height: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.main-navigation li a:hover{
+    color: #000;
+}
+.main-navigation li {
+    margin: 10px 6px 10px 6px;
+    position: relative;
+}
+.mainTextBlock {
+    font-family: schedBuilderFont;
+    font-stretch: expanded;
+    font-size: small;
+    border: 1px groove black;
+    background-color: thistle;
+}
+
+.mainBody {
+    /*width: 70%;*/
+    height: inherit;
+    padding: 15px;
+    background-color: #aaaaaa;
+    border: groove #160c6a;
+    float: none;
+
+}
+.scheduleBlocks {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    margin: 5px;
+    background-image: url("../img/block%20background.png");
+    width: 200px;
+    height: 200px;
+    /*border: groove orangered;*/
+    float: left;
+}
+.addTaskButton {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+    float: none;
+    align-content: center;
+    font-family: schedBuilderFont;
+    font-size: large;
+    width: 100%;
+    margin-right: 10px;
+
+}
+
+label, input { display:block; }
+input.text { margin-bottom:12px; width:95%; padding: .4em; }
+fieldset { padding:0; border:0; margin-top:25px; }
+h1 { font-size: 1.2em; margin: .6em 0; }
+div#users-contain { width: 350px; margin: 20px 0; }
+div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+.ui-dialog .ui-state-error { padding: .3em; }
+.validateTips { border: 1px solid transparent; padding: 0.3em; }
